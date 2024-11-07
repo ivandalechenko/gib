@@ -1,0 +1,36 @@
+.media {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 48px 12px;
+
+    &_content {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    &_header {
+        font-size: 36px;
+        color: #000;
+        text-align: center;
+    }
+
+    &_links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 32px;
+        margin-top: 16px;
+    }
+
+    &_decor {
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

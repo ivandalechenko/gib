@@ -1,0 +1,59 @@
+.forest {
+    padding: 128px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &_trees {
+        width: 100% !important;
+        justify-content: left !important;
+        align-items: start !important;
+        top: -80px;
+    }
+
+    &_flowers {
+        width: 100% !important;
+        justify-content: right !important;
+        align-items: end !important;
+        top: 80px;
+    }
+
+
+    &_header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_inner {
+            width: 100%;
+            max-width: 510px;
+            font-size: 36px;
+            text-align: center;
+            color: #000;
+        }
+    }
+
+    &_subheader {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_inner {
+            width: 100%;
+            max-width: 510px;
+            font-size: 36px;
+            text-align: center;
+            color: #000;
+            font-family: 'comics';
+            line-height: 34px;
+        }
+    }
+
+    &_subheader {
+
+        width: 100%;
+    }
+}
