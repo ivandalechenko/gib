@@ -6,6 +6,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media(max-width: 650px) {
+            height: 900px;
+        }
+
+        @media(max-width: 420px) {
+            scale: .8;
+            height: 800px;
+        }
     }
 
     &_text {
@@ -18,11 +27,21 @@
         &_1 {
             left: -100px;
             top: -350px;
+
+            @media(max-width: 650px) {
+                left: -80px;
+                top: -250px;
+            }
         }
 
         &_2 {
             left: 250px;
             top: -250px;
+
+            @media(max-width: 650px) {
+                left: 160px;
+                top: -180px;
+            }
         }
 
         &_3 {
@@ -33,37 +52,70 @@
         &_4 {
             left: -250px;
             top: -20px;
+
+            @media(max-width: 650px) {
+                left: -150px;
+                top: 0px;
+            }
         }
 
         &_5 {
             left: 200px;
             top: 320px;
+
+            @media(max-width: 650px) {
+                left: 90px;
+                top: 240px;
+            }
         }
 
         &_6 {
             left: -160px;
             top: 265px;
+
+            @media(max-width: 650px) {
+                left: -160px;
+                top: 200px;
+            }
         }
 
         &_l {
             img {
                 width: 550px;
+
+                @media(max-width: 650px) {
+                    width: 400px;
+                }
             }
 
             .hashtags_text {
                 font-size: 64px;
                 line-height: 64px;
+
+                @media(max-width: 650px) {
+                    font-size: 40px;
+                    line-height: 40px;
+                }
             }
         }
 
         &_s {
             img {
                 width: 380px;
+
+                @media(max-width: 650px) {
+                    width: 260px;
+                }
             }
 
             .hashtags_text {
                 font-size: 32px;
                 line-height: 32px;
+
+                @media(max-width: 650px) {
+                    font-size: 24px;
+                    line-height: 24px;
+                }
             }
         }
     }
@@ -74,6 +126,7 @@
         background-color: #fff;
         font-size: 36px;
         border: 12px solid #000;
+        text-align: center;
 
         &_wrapper {
             width: 100%;

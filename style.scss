@@ -10,3 +10,26 @@
 @use 'hashtags';
 @use 'focus';
 @use 'buy';
+
+.dnone {
+    display: none;
+}
+
+
+.cta {
+    cursor: pointer;
+    transition: filter 200ms;
+
+    &:hover {
+        filter: invert(1);
+    }
+}
+
+.ml {
+    cursor: pointer;
+    transition: transform 200ms;
+
+    &:hover {
+        transform: scale(1.1) rotate(5deg);
+    }
+}

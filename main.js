@@ -1,5 +1,9 @@
 import './style.scss'
 
+document.getElementById('hashcopy').onclick = () => {
+    console.log('copy hashtags');
+}
+
 // const hero = document.getElementById('hero');
 // const blast = document.getElementById('blast');
 // const mission = document.getElementById('mission');

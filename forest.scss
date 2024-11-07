@@ -10,6 +10,10 @@
         justify-content: left !important;
         align-items: start !important;
         top: -80px;
+
+        @media(max-width: 1000px) {
+            height: 350px;
+        }
     }
 
     &_flowers {
@@ -17,6 +21,11 @@
         justify-content: right !important;
         align-items: end !important;
         top: 80px;
+
+        @media(max-width: 1000px) {
+            height: 200px;
+            top: 160px;
+        }
     }
 
 
@@ -32,6 +41,10 @@
             font-size: 36px;
             text-align: center;
             color: #000;
+
+            @media(max-width: 500px) {
+                font-size: 28px;
+            }
         }
     }
 
@@ -49,6 +62,11 @@
             color: #000;
             font-family: 'comics';
             line-height: 34px;
+
+            @media(max-width: 500px) {
+                line-height: 28px;
+                font-size: 28px;
+            }
         }
     }
 
