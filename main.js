@@ -1,24 +1,18 @@
 import './style.scss'
 
 document.getElementById('hashcopy').onclick = () => {
-    console.log('copy hashtags');
+    navigator.clipboard.writeText("#SaveGib #ManLikeGib #FreeMandemGib #GibTypeShit #BetterCallGib #GibOut")
+        .then(() => {
+            document.getElementById('copied').classList.remove('copied_hide')
+            setTimeout(() => {
+                document.getElementById('copied').classList.add('copied_hide')
+            }, 3000);
+            // console.log("Текст скопирован в буфер обмена!");
+        })
+        .catch(err => {
+            console.error("Ошибка при копировании текста: ", err);
+        });
+
 }
 
-// const hero = document.getElementById('hero');
-// const blast = document.getElementById('blast');
-// const mission = document.getElementById('mission');
-// const just = document.getElementById('just');
-
-// // Добавляем слушатель для движения мыши
-// document.addEventListener('mousemove', (e) => {
-//   // Получаем позицию курсора как процентное смещение по оси X и Y
-//   const offsetX = (e.clientX / window.innerWidth - 0.5) * 15; // до 10% по горизонтали
-//   const offsetY = (e.clientY / window.innerHeight - 0.5) * 15; // до 10% по вертикали
-
-//   // Применяем смещение к фону
-//   hero.style.backgroundPosition = `${50 + offsetX}% ${50 + offsetY}%`;
-//   blast.style.backgroundPosition = `${50 + offsetX}% ${50 + offsetY}%`;
-//   mission.style.backgroundPosition = `${50 + offsetX}% ${50 + offsetY}%`;
-//   just.style.backgroundPosition = `${50 + offsetX}% ${50 + offsetY}%`;
-// });
 
