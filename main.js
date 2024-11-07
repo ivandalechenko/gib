@@ -17,7 +17,7 @@ document.getElementById('hashcopy').onclick = () => {
 
 
 document.getElementById('ca').onclick = () => {
-    navigator.clipboard.writeText("Cn33KN8rotQutctyDZVFtse41qQQ8BSkJyWF3ncSpump")
+    navigator.clipboard.writeText("")
         .then(() => {
             document.getElementById('copied').classList.remove('copied_hide')
             setTimeout(() => {
