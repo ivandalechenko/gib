@@ -1,7 +1,7 @@
 import './style.scss'
 
 document.getElementById('hashcopy').onclick = () => {
-    navigator.clipboard.writeText("#SaveGib #ManLikeGib #FreeMandemGib #GibTypeShit #BetterCallGib #GibOut")
+    navigator.clipboard.writeText("#SaveBUBBLES #ManLikeBUBBLES #FreeMandemBUBBLES #BUBBLESTypeShit #BetterCallBUBBLES #BUBBLESOut")
         .then(() => {
             document.getElementById('copied').classList.remove('copied_hide')
             setTimeout(() => {
